@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientación="vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_gravity="center"
+        android:layout_maginTop="34"
+        android:texSize="34dp"
+        android:text="conoce tu destino"
+        android:textColor="#548E94"
+        android:textStyle="italic|bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        app:srcCompat="@drawable/ball" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_gravity="center"
+        android:layout_maginTop="34"
+        android:texSize="34dp"
+        android:text="..."
+        android:textColor="#548E94"
+        android:textStyle="italic|bold" />
+
+
+</LinearLayout>
